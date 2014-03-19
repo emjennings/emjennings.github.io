@@ -7,12 +7,51 @@ color: yellow;
 margin: 1em;
 }
 
+nav {
+	background: white;
+}
+
+a {
+	display: block;
+}
+
+li {
+	list-style: none;
+}
+
+nav ul li {
+	float: left;
+	height: 100px;
+	width: 20%;
+	font-size: 1.25em;
+}
+
+nav ul li a img {
+	height: 50%;
+	width: 50%;
+	border: none;
+	border-radius: 0;
+}
+
 section img {
 	margin-bottom: 20px;
 	margin-top: -5px;
 	height: 100px;
 }
 
+a:link {
+	color: royalblue;
+	text-decoration: none;
+}
+
+a:visited {
+	color: royalblue;
+}
+
+a:hover {
+	color: yellow;
+	text-decoration: none;
+}
 a.lightbox img {
 height: 150px;
 width: 200px;
