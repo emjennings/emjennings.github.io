@@ -1,14 +1,14 @@
-body, html {
-font-family: 'Arvo', serif;
-padding: 0;
-text-align: center;
-background: black;
-color: yellow;
-margin: 1em;
+/* Lightbox gallery based on http://www.designcouch.com/home/why/2013/11/01/responsive-css3-lightbox-with-no-javascript/ */
+body {
+	font-family: 'Arvo', serif;
+	padding: 0;
+	background: url(http://www.hdbackgroundspoint.com/wp-content/uploads/2014/01/07/i7i7.jpeg);
+	color: white;
+	margin: 1em;
 }
 
 nav {
-	background: white;
+	text-align: center;
 }
 
 a {
@@ -21,14 +21,15 @@ li {
 
 nav ul li {
 	float: left;
-	height: 100px;
+	height: 60px;
 	width: 20%;
 	font-size: 1.25em;
+	margin: 0 0.15em;
 }
 
 nav ul li a img {
-	height: 50%;
-	width: 50%;
+	height: 50px;
+	width: 75px;
 	border: none;
 	border-radius: 0;
 }
